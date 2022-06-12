@@ -282,21 +282,27 @@ ul {
 .crewmember-list {
   display: flex;
   flex-wrap: wrap;
-  padding:0;
+  padding: 0;
 }
+
 /*crew-item*/
 .crew-item {
- 
+  width: 270px;
+  width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
+  margin-bottom: 30px;
+}
+.crew-card {
+  width: 270px;
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--header-bgr-color);
 }
 
-.crew-item img {
-  margin-bottom: 30px;
-}
 /*crew-item*/
 
 .crew-item:nth-child(4n) {
