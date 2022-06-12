@@ -282,6 +282,7 @@ ul {
 .crewmember-list {
   display: flex;
   flex-wrap: wrap;
+  padding:0;
 }
 /*crew-item*/
 .crew-item {
