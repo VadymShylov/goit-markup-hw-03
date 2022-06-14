@@ -29,16 +29,18 @@ ul {
   padding-left: 0;
   list-style: none;
 }
-
+img {
+  display: block;
+}
 /*container*/
 
 .container {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  /* outline: 2px solid tomato;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 /*section*/
@@ -53,6 +55,8 @@ ul {
 .nav {
   border: 1px solid var(--header-border-color);
   background-color: var(--header-bgr-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /*main-nav*/
@@ -158,7 +162,7 @@ ul {
 /*hero*/
 
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-right: auto;
   margin-left: auto;
@@ -326,9 +330,7 @@ ul {
   background-color: var(--team-section-bgr-color);
 }
 /*crew-title*/
-.crew-title img {
-  margin: 0;
-}
+
 .crew-title {
   margin-top: 0;
   margin-bottom: 50px;
